@@ -37,4 +37,13 @@ public class Deck {
     public void dealCard(Player player) {
         player.addCard(deck.remove(0));
     }
-}
+
+    public ArrayList<Card> getShuffledDeck() {
+        populateDeck();
+        shuffleCards();
+        return deck;
+    }
+
+
+
+    }

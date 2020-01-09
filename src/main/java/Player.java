@@ -17,4 +17,8 @@ public class Player {
     public void addCard(Card card) {
         cards.add(card);
     }
+
+    public ArrayList<Card> getCards() {
+        return cards;
+    }
 }

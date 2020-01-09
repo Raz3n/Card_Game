@@ -8,4 +8,11 @@ public class Card {
         this.rank = rank;
     }
 
+    public SuitType getSuit() {
+        return suit;
+    }
+
+    public RankType getRank() {
+        return rank;
+    }
 }
