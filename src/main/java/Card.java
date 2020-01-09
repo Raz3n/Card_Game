@@ -7,4 +7,5 @@ public class Card {
         this.suit = suit;
         this.rank = rank;
     }
+
 }
